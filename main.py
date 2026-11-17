@@ -40,7 +40,7 @@ except ImportError:  # mesin analisis tetap bisa diimpor tanpa telegram
 # KONFIGURASI
 # =============================================================================
 # Isi token di sini ATAU set environment variable TELEGRAM_BOT_TOKEN.
-TELEGRAM_BOT_TOKEN = "9221150033:AAFFpO_jVHWjWFhLfasCPqG5zOmx8gTS2n4"
+TELEGRAM_BOT_TOKEN = "TELEGRAM_BOT_TOKEN"
 
 # Opsional: batasi pemakai (kosongkan = semua orang boleh). Contoh: {123456789}
 ALLOWED_USER_IDS = set()
