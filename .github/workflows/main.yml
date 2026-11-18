@@ -33,7 +33,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           set +e
-          timeout --signal=INT --kill-after=30s 5h50m python -u main.py
+          timeout --signal=INT --kill-after=30s 21000s python -u main.py
           STATUS=$?
 
           if [ "$STATUS" -eq 124 ] || [ "$STATUS" -eq 130 ]; then
